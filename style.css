@@ -1,0 +1,108 @@
+td{
+	vertical-align:top;
+	line-height:10px;
+	color:dark;
+	font-family:fantasy;
+	border-width:20px;
+}
+tr{
+	color:rgb(0,255,0)
+}
+strong{
+	font-weight:100px;
+	font-size:50px;
+	color:red;
+	line-height:100px;
+	word-spacing:10px;
+	padding:50px;
+}
+h1{
+	line-height:50px;
+	color:purple;
+	word-spacing:10px;
+}
+h2{
+	font-size:30px;
+	font-family:Helvetica;
+}
+em{
+	width:100px;
+	
+}
+body{
+	background-image:url("Dota.jpg");
+	background-size:cover;
+	background-position:top;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	font-family: Arial; 
+	
+	
+}
+table{
+	border-style:dotted;
+	border-color:blue;
+	border-radius:10px 10px 10px 10px;
+	border-bottom:10px dotted blue;
+	border-top: 10px dotted blue;
+
+	
+}
+center{
+	margin-top:20px;
+	margin-bottom:20px;
+	word-spacing:10px;
+	
+	
+}
+a{
+	color:white;
+	word-spacing:10px;
+	
+}
+h4{
+	background: #fc3; 
+    border: 2px solid black;
+    padding: 20px;
+	font-family:monospace;
+	word-spacing:10px;
+}
+dl
+{
+	color:white;
+	width:100px;
+	height:200px;
+	line-height:20px;
+	letter-spacing:2px;
+	text-align:center(justify);
+	font-family:monospace;
+	font-size:30px;
+}
+input{
+	padding: 7px;
+    border-color:silver;
+	border-style:dashed;
+}
+label{
+	padding: 20px;
+	font-family:monospace;
+	word-spacing:10px;
+	font-size:15px;
+	color:orange;
+}
+
+select{
+	border-style:groove;
+	border-radius:5px;
+	border-width:10px;
+}
+span{
+	color:blue;
+	font-size:15px;
+}
+button{
+	border-width:5px;
+}
+
+
+
