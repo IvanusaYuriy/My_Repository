@@ -4,6 +4,7 @@ td{
 	color:dark;
 	font-family:fantasy;
 	border-width:20px;
+	float:left;
 }
 tr{
 	color:rgb(0,255,0)
@@ -29,17 +30,18 @@ em{
 	width:100px;
 	
 }
-body{
+.Ura{
 	background-image:url("Dota.jpg");
 	background-size:cover;
 	background-position:top;
 	background-attachment:fixed;
 	background-repeat:no-repeat;
-	font-family: Arial; 
+	font-family: Arial;
 	
 	
 }
 table{
+	display:run-in;
 	border-style:dotted;
 	border-color:blue;
 	border-radius:10px 10px 10px 10px;
@@ -58,14 +60,8 @@ center{
 a{
 	color:white;
 	word-spacing:10px;
+	clear:right;
 	
-}
-h4{
-	background: #fc3; 
-    border: 2px solid black;
-    padding: 20px;
-	font-family:monospace;
-	word-spacing:10px;
 }
 dl
 {
@@ -95,6 +91,7 @@ select{
 	border-style:groove;
 	border-radius:5px;
 	border-width:10px;
+	
 }
 span{
 	color:blue;
@@ -102,7 +99,42 @@ span{
 }
 button{
 	border-width:5px;
+	position:absolute;
 }
-
-
-
+.test{
+	background-image:url("Dota1.jpg");
+	
+}
+.pudge{
+	background-image:url("Dota2.png");
+	background-size:cover;
+	background-position:left;
+	background-attachment:scroll;
+	background-repeat:repeat;
+	font-family: Times; 
+}
+.end{
+	font-size:100px;
+	font-family:cursive;
+}
+.end1{
+	color:yellow;
+	position:static;
+	display:block;
+	
+}
+.div1{
+	position:relative;
+	background: #fc3; 
+    border: 2px solid black;
+    padding: 20px;
+	font-family:monospace;
+	word-spacing:10px;
+	overflow:scroll;
+}
+img {
+    position: none;
+    left: 100px;
+    top: 10px;
+    z-index: inherit;
+}
